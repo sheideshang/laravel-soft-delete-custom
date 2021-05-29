@@ -1,6 +1,7 @@
 {
     "name": "zw/laravel-soft-delete-custom",
     "description": "laravel 软删除扩展",
+    "keywords": ["Eloquent", "softdelete", "custom"],
     "license": "MIT",
     "type": "library",
     "require": {
