@@ -1,0 +1,21 @@
+{
+    "name": "zw/laravel-soft-delete-custom",
+    "description": "laravel 软删除扩展",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "LiZuoWang",
+            "email": "504376304@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "ZW\\Laravel\\Eloquent\\Custom\\": "src/"
+        }
+    }
+}
