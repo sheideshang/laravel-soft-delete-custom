@@ -30,7 +30,7 @@ class TestModel extends BaseModel
 
     const DELETED = 'is_deleted';//软删除字段 不设置默认为is_deleted
     const DELETED_VALUE = 1;//软删除值 不设置默认为1
-    const UN_DELETED_VALUE = 1;//未删除值 不设置默认为o
+    const UN_DELETED_VALUE = 0;//未删除值 不设置默认为o
     
     
     //如果是比较发杂的删除值 可以在模型中覆盖 trait中分方法getDeletedValue()、getUnDeletedValue()
